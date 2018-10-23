@@ -4,10 +4,10 @@ const drivers = ["Milo", "Otis", "Garfield"]
 
 let driver = "Ralph"
 
-function destructivelyAppendDriver() {
-  drivers.push(driver)
+function destructivelyAppendDriver(name) {
+  drivers.push(name)
 }
 
-function destructivelyPrependDriver() {
-  drivers.unshift(driver)
+function destructivelyPrependDriver(name) {
+  drivers.unshift(name)
 }
